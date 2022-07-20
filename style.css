@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+h1,h2{
+    font-weight: bolder;
+}
+h2{
+    color: #ED5856;
+}
+input{
+    padding: 8px;
+    border: rgb(184, 177, 177) 2px solid;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 300px;
+}
+hr{
+    margin-top: 0px;
+    background-color: #ED5856;
+    opacity: 1;
+    width: 80px;
+    height: 3px;
+    border: none;
+}
+button{
+    background-color: #ED5856;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #ea7b79;
+}
+.brand-name{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: coral;
+    position: relative;
+}
+.text1{
+    color: coral;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    /* letter-spacing: 2px; */
+    animation: text 3s 1;
+}
+@keyframes text {
+    0%{
+        color: white;
+        margin-right: -5px;
+    }
+}
+.text2{
+    font-weight: bold;
+}
+.strong-type{
+    font-weight: bold;
+}
+.backdrop{
+    height: 100vh;
+    background-image: url('./Images/backdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i{
+    color: #ED5856;
+    border: 2px solid #ED5856;
+    border-radius: 100%;
+}
+.center-items{
+    height: 80vh;
+}
+.background-main-footer{
+    background-color: #F0F0F0;
+}
+.card-effects{
+    transition: all 0.5s;
+    position: relative;
+}
+.card-effects:hover{
+    transform: scale(1.1);
+}
+.card-effects:hover .rectangle{
+    display: block;
+}
+.rectangle{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgb(168, 168, 168, 0.4);
+}
+.text-next{
+    color: white;
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin-bottom: 0;
+}
+.hr-line{
+    margin-top: 0px;
+    background-color: white;
+    opacity: 1;
+    width: 200px;
+    height: 3px;
+    border: none;
+    margin-left: 70px;
+    animation: slide 0.8s forwards linear 1;
+}
+@keyframes slide {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 200px;
+    }
+}
+
+footer{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.contact-inputs{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: rgb(184, 177, 177) 2px solid;
+    border-radius: 5px;
+}
