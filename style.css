@@ -105,6 +105,7 @@ i{
     font-family: 'Edu VIC WA NT Beginner', cursive;
     margin-bottom: 0;
 }
+
 .hr-line{
     margin-top: 0px;
     background-color: white;
@@ -112,8 +113,9 @@ i{
     width: 200px;
     height: 3px;
     border: none;
+    border-radius: 10px;
     margin-left: 70px;
-    animation: slide 0.8s forwards linear 1;
+    animation: slide 0.4s forwards linear 1;
 }
 @keyframes slide {
     from{
@@ -125,8 +127,8 @@ i{
 }
 
 footer{
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
 }
 .contact-inputs{
     width: 100%;
